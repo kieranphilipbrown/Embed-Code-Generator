@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns#">
+	<head>
+		<title>Embed Code Generator</title>
+		<link href="style.css" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Embed Code Generator</h1>
+			<form id="passwordGenerator">
+				<section>
+					<h2>Settings</h2>
+					<span>
+						<label for="txtSiteName">Site Name</label>
+						<input id="txtSiteName" placeholder="#SHd" type="text" value="">
+					</span>
+					<span>
+						<label for="urlPostUrl">Post URL</label>
+						<input id="urlPostUrl" placeholder="http://seanholcroft.co.uk" type="url" value="">
+					</span>
+					<h3>Image settings</h3>
+					<span>
+						<label for="txtImageAltText">Alt Text</label>
+						<input id="txtImageAltText" placeholder="" type="text" value="">
+					</span>
+					<span>
+						<label for="urlImageUrl">URL</label>
+						<input id="urlImageUrl" placeholder="" type="url" value="">
+					</span>
+					<span>
+						<label for="numImageHeight">Height</label>
+						<input id="numImageHeight" placeholder="900" type="number" value="">
+					</span>
+					<span>
+						<label for="numImageWidth">Width</label>
+						<input id="numImageWidth" placeholder="1600" type="number" value="">
+					</span>
+					<h3>Embed settings</h3>
+					<span>
+						<label for="numEmbedHeight">Height</label>
+						<input id="numEmbedHeight" placeholder="225" type="number" value="">
+					</span>
+					<span>
+						<label for="numEmbedWidth">Width</label>
+						<input id="numEmbedWidth" placeholder="400" type="number" value="">
+					</span>
+					<button id="generate" type="button">Generate Code</button>
+				</section>
+				<h2>Use this code</h2>
+				<textarea id="result"></textarea>
+			</form>
+		</div>
+		<script defer src="script.js"></script>
+	</body>
+</html>
