@@ -3,12 +3,12 @@
 	var elementGenerate = document.getElementById("generate");
 	var elementResult = document.getElementById("result");
 
-	var txtSiteName = document.getElementById("txtSiteName");
-	var urlPostUrl = document.getElementById("urlPostUrl");
-	var txtImageAltText = document.getElementById("txtImageAltText");
-	var urlImageUrl = document.getElementById("urlImageUrl");
-	var numImageHeight = document.getElementById("numImageHeight");
-	var numImageWidth = document.getElementById("numImageWidth");
+	var txtSiteName = document.getElementById("siteName");
+	var urlPostUrl = document.getElementById("postUrl");
+	var txtImageAltText = document.getElementById("imageAltText");
+	var urlImageUrl = document.getElementById("imageUrl");
+	var numImageHeight = document.getElementById("imageHeight");
+	var numImageWidth = document.getElementById("imageWidth");
 	
 	// Add Event Listeners
 	elementGenerate.addEventListener(
